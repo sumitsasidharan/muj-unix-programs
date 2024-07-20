@@ -17,9 +17,9 @@ echo $fact
 ```
 
 
-*****************************************
+## Adding all the digits of a number
 
-# Adding all the digits of a number
+```sh
 echo "enter a number "
 read num
 
@@ -33,14 +33,12 @@ do
 done
 
 echo $sum
+```
 
 
+## Switch case example
 
-*********************************************************
-
-
-# switch case
-
+```sh
 CITY="jaipur"
 
 case "$CITY" in
@@ -51,19 +49,19 @@ case "$CITY" in
     "jaipur") echo "it is famour for forts"
     ;;
 esac
+```
 
 
-*********************************************************
+## Length of the string
 
-# Length of the string
-
-
+```sh
 string="manipal university"
 echo "length: ${#string}"
+```
 
-*********************************************************
-# combine string
+## Combining multiple strings
 
+```sh
 s1="Manipal "
 s2="University "
 s3="Jaipur"
@@ -73,13 +71,12 @@ s5="$s1$s2$s3"
 # print the concatenated string
 echo ${s4}  #  or echo $s4
 echo $s5
+```
 
 
-*********************************************************
+## Check if a number is Palindrome or not
 
-
-# palindrome or not
-
+```sh
 echo "Enter a number: "
 read number
 
@@ -99,11 +96,12 @@ then
 else
     echo "$original is not a palindrome."
 fi
+```
 
-*********************************************************
 
-# valid triangle or not
+## Check if 3 angles make valid triangle or not
 
+```sh
 echo "enter angle A"
 read A
 echo "enter angle B"
@@ -124,11 +122,12 @@ else
         echo "not a valid triangle"
     fi
 fi
+```
 
-*********************************************************
 
-# check if prime or not
+## Check if a number is Prime or not
 
+```sh
 echo -n "Enter a number: "
 read num
 i=2
@@ -146,11 +145,12 @@ do
 done
 
 echo "$num is a prime number "
+```
 
-*********************************************************
 
-# nested loops [IMPORTANT PATTERN PROGRAM]
+## Nested Loops [IMPORTANT PATTERN PROGRAM]
 
+```sh
 a=0
 while [ "$a" -lt 5 ] # loop1
 do
@@ -163,5 +163,5 @@ do
     echo
     a=`expr $a + 1`
 done
+```
 
-*********************************************************
